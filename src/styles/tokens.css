@@ -1,0 +1,84 @@
+:root {
+  /* Brand & Color Palette (Showroom Warm Modern Aesthetic) */
+  --color-primary: #1e3a8a;          /* Deep showroom sapphire */
+  --color-primary-hover: #172554;
+  --color-primary-light: #eff6ff;
+  --color-accent: #b45309;           /* Warm artisan amber / teak */
+  --color-accent-hover: #92400e;
+  --color-accent-light: #fef3c7;
+
+  /* Surfaces & Backgrounds */
+  --color-bg-main: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-bg-muted: #f1f5f9;
+  --color-bg-subtle: #e2e8f0;
+
+  /* Text & Content */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-inverted: #ffffff;
+
+  /* Borders & Dividers */
+  --color-border: #e2e8f0;
+  --color-border-hover: #cbd5e1;
+  --color-border-strong: #94a3b8;
+
+  /* Status Colors */
+  --color-status-available-bg: #ecfdf5;
+  --color-status-available-text: #065f46;
+  --color-status-available-border: #a7f3d0;
+
+  --color-status-outofstock-bg: #fef2f2;
+  --color-status-outofstock-text: #991b1b;
+  --color-status-outofstock-border: #fecaca;
+
+  --color-status-onorder-bg: #fffbeb;
+  --color-status-onorder-text: #92400e;
+  --color-status-onorder-border: #fde68a;
+
+  --color-status-comingsoon-bg: #f0fdf4;
+  --color-status-comingsoon-text: #166534;
+  --color-status-comingsoon-border: #bbf7d0;
+
+  --color-status-discontinued-bg: #f3f4f6;
+  --color-status-discontinued-text: #4b5563;
+  --color-status-discontinued-border: #e5e7eb;
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+
+  /* Layout */
+  --container-max-width: 1200px;
+}
